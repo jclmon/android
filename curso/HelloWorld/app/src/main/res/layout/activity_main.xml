@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textoEvento"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="Iniciar activity secundario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/textoEvento2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initLinearLayoutActivity"
+        android:text="Iniciar Linear Layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento"
+        app:layout_constraintVertical_bias="0.00" />
+
+    <TextView
+        android:id="@+id/textoEvento3"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initRelativeLayoutActivity"
+        android:text="Iniciar Relative Layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textoEvento4"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initBotonesActivity"
+        android:text="Iniciar Botones Layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textoEvento5"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initCheckBoxActivity"
+        android:text="Iniciar CheckBox Layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textoEvento6"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initImagenesVectorialesActivity"
+        android:text="Imagenes vectoriales"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento4"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:id="@+id/textoEvento7"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initConstraintLayoutActivity"
+        android:text="Constraint Layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento4"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <TextView
+        android:id="@+id/textoEvento8"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initFragmentActivity"
+        android:text="Fragment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento4"
+        app:layout_constraintVertical_bias="0.096" />
+
+
+    <TextView
+        android:id="@+id/textoEvento9"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initAdministradorFragmentActivity"
+        android:text="Administrador Fragment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento4"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <TextView
+    android:id="@+id/textoEvento10"
+    android:layout_width="409dp"
+    android:layout_height="wrap_content"
+    android:onClick="initFragmentListActivity"
+    android:text="Fragment List"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textoEvento4"
+    app:layout_constraintVertical_bias="0.16" />
+
+
+    <TextView
+        android:id="@+id/textoEvento11"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initComunicationFragmentActivity"
+        android:text="Fragment Comunication"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento4"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <TextView
+        android:id="@+id/textoEvento12"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initMultiScreenActivity"
+        android:text="Vista multiscreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textoEvento113"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initDialogFragmentActivity"
+        android:text="Dialog fragment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento11"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/textoEvento114"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initScrollingActivity"
+        android:text="Scrolling activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento11"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+        android:id="@+id/textoEvento115"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initListElementsActivity"
+        android:text="List elements"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento11"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/textoEvento116"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initListElementsAdapterActivity"
+        android:text="List elements with custom adapter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento11"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <TextView
+        android:id="@+id/textoEvento117"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initGridViewAdapterActivity"
+        android:text="Grid elements with custom adapter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento11"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <TextView
+        android:id="@+id/textoEvento118"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:onClick="initRecycledViewActivity"
+        android:text="Recycled view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEvento11"
+        app:layout_constraintVertical_bias="0.244" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

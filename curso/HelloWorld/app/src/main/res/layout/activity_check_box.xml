@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckBoxActivity">
+
+    <CheckBox
+        android:id="@+id/checkBoxChapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tipoAveriaSeleccionada"
+        android:text="Chapa y Pintura" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCristal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tipoAveriaSeleccionada"
+        android:text="Rotura cristal" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMecanica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tipoAveriaSeleccionada"
+        android:text="Averia Mecánica" />
+
+    <RadioGroup
+        android:id="@+id/averia"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:text="Averias">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Averias" />
+
+        <RadioButton
+            android:id="@+id/radioChapaPintura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tipoAveriaSeleccionadaRadio"
+            android:text="Chapa y Pintura" />
+
+        <RadioButton
+            android:id="@+id/radioCristal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tipoAveriaSeleccionadaRadio"
+            android:text="Rotura Cristal" />
+
+        <RadioButton
+            android:id="@+id/radioAveria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tipoAveriaSeleccionadaRadio"
+            android:text="Averia Mecánica" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="conocerOpcionMarcada"
+        android:text="Id Seleccionado" />
+
+</LinearLayout>

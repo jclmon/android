@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helloworld">
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RecicledViewActivity"></activity>
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".ListElementsCustomAdapterActivity" />
+        <activity android:name=".ListElementsActivity" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DialogFragmentActivity"
+            android:label="@string/title_activity_dialog_fragment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MultScreenActivity" />
+        <activity android:name=".FragmentComunicationActivity" />
+        <activity android:name=".FragmentListActivity" />
+        <activity
+            android:name=".AdministradorFragmentosActivity"
+            android:label="@string/title_activity_administrador_fragmentos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FragmentActivity" />
+        <activity android:name=".ConstraintLayoutActivity" />
+        <activity android:name=".ImagenesVectorialesActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".BotonesActivity" />
+        <activity android:name=".RelativeLayoutActivity" />
+        <activity android:name=".LinearLayoutActivity" />
+        <activity android:name=".GestionAlarmasActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
